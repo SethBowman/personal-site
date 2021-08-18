@@ -1,4 +1,4 @@
 
-<img src="images/headshot.jpg" style="height: 200px;"></img>
+<img src="images/headshot.jpg"></img>
 
 ## Seth Bowman Productions &trade;
