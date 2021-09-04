@@ -23,4 +23,10 @@
 
 .Navbar nav ul li a {
     text-decoration: none;
+    color: white;
+}
+
+.Navbar a:hover {
+    border-bottom: 5px solid lightskyblue;
+
 }
