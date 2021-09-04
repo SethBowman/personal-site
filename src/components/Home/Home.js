@@ -1,7 +1,16 @@
+import classes from './Home.module.css';
+import binary from './../../images/binary-world.png';
+import tcLogoSmall from './../../images/TCLogoOnly.png';
+
 const Home = () => {
     return ( 
-        <div>
-            <h1>Home</h1>
+        <div className={classes.Home}>
+            <div className={classes.Container}>
+                <h1 className={classes.Hello}>Hello world!</h1>
+                <h2>Welcome to my website.</h2>
+            </div>
+            <img className={classes.TcSmall} src={tcLogoSmall} alt="Tc Logo- Small" style={{height: '100px'}} />
+            <img className={classes.Binary} src={binary} alt="Binary" />
         </div>
      );
 }

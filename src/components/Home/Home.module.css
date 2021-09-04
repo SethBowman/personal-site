@@ -1,0 +1,25 @@
+.Home {
+    background: lightskyblue;
+    display: flex;
+    height: 630px;
+    padding-top: 80px;
+    position: relative;
+}
+
+.Home .Container h1 h2 {
+    margin: 0;
+}
+
+.Home .Binary {
+    
+    position: absolute;
+    right: 0;
+    height: 70%;
+}
+
+.Home .TcSmall {
+    height: 24%;
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+}
