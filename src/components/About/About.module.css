@@ -1,0 +1,24 @@
+.AboutMe {
+    background-color: black;
+    color: white;
+}
+
+.AboutMe .Container{
+    display: flex;
+}
+
+.AboutMe .Container .Text {
+    width: 47%;
+    margin-left: 3%;
+}
+
+.AboutMe .Container .Photo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutMe .Container .Photo .Me {
+    height: 500px;
+    border-radius: 10%;
+}
