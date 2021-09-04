@@ -1,7 +1,24 @@
+import classes from './Navbar.module.css';
+
 const Navbar = () => {
     return (  
-        <div>
-            <h1>Navigation bar</h1>
+        <div className={classes.Navbar}>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/#about">About Me</a>
+                    </li>
+                    <li>
+                        <a href="/#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="/#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     );
 }
