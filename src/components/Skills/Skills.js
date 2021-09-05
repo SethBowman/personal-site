@@ -27,7 +27,7 @@ const allSkills = [backEndSkills, frontEndSkills, otherSkills];
 
 const Skills = () => {
   return (
-    <div className={classes.Skills}>
+    <div className={classes.Skills} id="skills">
       <PageHeader title={"What skills do I have?"} />
       <p>
         "I've earned certification in web development and software engineering

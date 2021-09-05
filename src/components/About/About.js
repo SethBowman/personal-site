@@ -4,7 +4,7 @@ import me from "./../../images/headshot.jpg";
 
 const About = () => {
   return (
-    <div className={classes.AboutMe}>
+    <div className={classes.AboutMe} id="about">
       <PageHeader title={"About Me"} />
       <div className={classes.Box}>
         <div className={classes.Text}>
