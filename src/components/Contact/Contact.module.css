@@ -1,0 +1,17 @@
+.Contact {
+    background: rgb(0,0,0);
+    background: linear-gradient(35deg, rgba(0,0,0,1) 20%, rgba(32, 32, 32, 0.654) 75%);
+    height: 500px;
+    display: flex;
+    align-items: center;    
+}
+
+.Contact .Icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact .Icons svg path {
+    cursor: pointer;
+}
