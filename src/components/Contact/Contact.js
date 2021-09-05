@@ -1,4 +1,5 @@
 import { FaGithub, FaFacebookSquare, FaLinkedin, FaPlaystation } from "react-icons/fa";
+import classes from './Contact.module.css';
 
 const handleURL = (url) => {
     return () => window.open(url, "_blank")
@@ -6,17 +7,15 @@ const handleURL = (url) => {
 
 const Contact = () => {
     return ( 
-        <div>
+        <div className={classes.Contact}>
+            <div className={classes.Icons}>
             <FaGithub color='#0094c8' size='30px' style={{padding: '1%'}} onClick={handleURL('https://github.com/SethBowman')} />
-            <FaFacebookSquare color='#0094c8' size='30px' style={{padding: '1%'}} onClick={handleURL('https://www.facebook.com/OGsethbowman/')} />
             <FaLinkedin color='#0094c8' size='30px' style={{padding: '1%'}} onClick={handleURL('https://www.linkedin.com/in/seth-bowman-358863211/')} />
-            <FaPlaystation color='#0094c8' size='30px' style={{padding: '1%'}} onClick={handleURL('https://psnprofiles.com/Captn-Kold')} />
-            
+            <FaFacebookSquare color='#0094c8' size='30px' style={{padding: '1%'}} onClick={handleURL('https://www.facebook.com/OGsethbowman/')} />
+            <FaPlaystation color='#0094c8' size='30px' style={{padding: '1%'}} onClick={handleURL('https://psnprofiles.com/Captn-Kold')} />          
+            </div>
         </div>
      );
 }
  
 export default Contact;
-<div>
-    <h1>Contact</h1>
-</div>
