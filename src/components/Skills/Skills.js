@@ -2,22 +2,24 @@ import classes from "./Skills.module.css";
 import PageHeader from "./../PageHeader/PageHeader.js";
 import codeGif from "./../../images/coding-tag-gif.gif";
 
+const listTitleStyle = { fontWeight: 900, color: '#0094c8', marginBottom: '8px'}
+
 const backEndSkills = 
 <ul>
-    <li>BACKEND</li>
-    <li>C# - SQL - ASP.Net MVC</li>
+    <li style={listTitleStyle}>BACKEND</li>
+    <li>C# - SQL</li>
 </ul>
 
 const frontEndSkills =
 <ul>
-    <li>FRONTEND</li>
+    <li style={listTitleStyle}>FRONTEND</li>
     <li>HTML - CSS = JavaScript</li>
     <li>React.js = Node.js - Express.js</li>
 </ul>
 
 const otherSkills =
 <ul>
-    <li>OTHER</li>
+    <li style={listTitleStyle}>OTHER</li>
     <li>Git - Json - XML</li>
 </ul>
 
