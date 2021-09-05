@@ -3,22 +3,22 @@
     color: white;
 }
 
-.AboutMe .Container{
+.AboutMe .Box {
     display: flex;
 }
 
-.AboutMe .Container .Text {
+.AboutMe .Box .Text {
     width: 47%;
     margin-left: 3%;
 }
 
-.AboutMe .Container .Photo {
+.AboutMe .Box .Photo {
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-.AboutMe .Container .Photo .Me {
+.AboutMe .Box .Photo .Me {
     height: 500px;
     border-radius: 10%;
 }
