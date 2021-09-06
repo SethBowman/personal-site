@@ -18,7 +18,7 @@ const About = () => {
             "I am a proud member of TrueCoders, a programming school based out
             of Hoover, AL where I work as a teaching assistant with formal
             accreditations in web development and software engineering. I feel I
-            am an artist at heart, so a career path like programming was perfect
+            am an artist at heart, so a career path like programming is perfect
             for me. I have worked with many different students from all walks of
             life across the country and I truly enjoy seeing how far they go
             after they complete the course with us."
