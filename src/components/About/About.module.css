@@ -1,27 +1,32 @@
 .AboutMe {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
 }
 
-.AboutMe .Box {
+/* .AboutMe .Box {
     display: flex;
-}
+} */
 
-.AboutMe .Box .Text {
+/* .AboutMe .Box .Text {
     width: 47%;
     margin-left: 3%;
-}
+} */
 
-.AboutMe .Box .Photo {
+/* .AboutMe .Box .Photo {
     width: 50%;
     display: flex;
     justify-content: center;
     width: 100%;
     height: auto;
 
-}
+} */
 
-.AboutMe .Box .Photo .Me {
-    height: 500px;
-    border-radius: 10%;
+.Me {
+  height: 75%;
+  width: auto;
+  border-radius: 10%;
+  right: 5;
 }

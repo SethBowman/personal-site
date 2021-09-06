@@ -1,13 +1,18 @@
+import site from "../../index.module.css";
 import classes from "./About.module.css";
-import PageHeader from "./../PageHeader/PageHeader.js";
+import PageHeader from "../PageHeader/PageHeader.js";
 import me from "./../../images/headshot.jpg";
 
 const About = () => {
   return (
     <div className={classes.AboutMe} id="about">
-      <PageHeader title={"About Me"} />
-      <div className={classes.Box}>
-        <div className={classes.Text}>
+      <div className={site.Container}>
+        {/* <PageHeader title={"About Me"} /> */}
+        <div className={site.colMd12}>
+          <h1>About Me</h1>
+          <hr />
+        </div>
+        <div className={site.colMd6}>
           <h2>Seth Bowman</h2>
           <p>
             "I am a proud member of TrueCoders, a programming school based out
@@ -19,8 +24,12 @@ const About = () => {
             after they complete the course with us."
           </p>
         </div>
-        <div className={classes.Photo}>
-          <img className={classes.Me} src={me} alt="Seth" />
+        <div className={site.colMd6}>
+          <img
+            className={`${classes.Me} ${site.imgFluid}`}
+            src={me}
+            alt="Seth"
+          />
         </div>
       </div>
     </div>

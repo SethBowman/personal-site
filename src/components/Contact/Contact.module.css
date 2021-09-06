@@ -1,7 +1,7 @@
 .Contact {
     background: rgb(0,0,0);
     background: linear-gradient(35deg, rgba(0,0,0,1) 20%, rgba(32, 32, 32, 0.654) 75%);
-    height: 500px;
+    height: 100VH;
     display: flex;
     align-items: center;    
 }

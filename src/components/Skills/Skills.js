@@ -1,4 +1,5 @@
 import classes from "./Skills.module.css";
+import site from "../../index.module.css";
 import PageHeader from "./../PageHeader/PageHeader.js";
 import codeGif from "./../../images/coding-tag-gif.gif";
 
@@ -28,7 +29,11 @@ const allSkills = [backEndSkills, frontEndSkills, otherSkills];
 const Skills = () => {
   return (
     <div className={classes.Skills} id="skills">
-      <PageHeader title={"What skills do I have?"} />
+      <div className={site.Container}>
+        <h1>What skills do I have?</h1>
+        <hr/>
+      </div>
+      {/* <PageHeader title={"What skills do I have?"} /> */}
       <p>
         "I've earned certification in web development and software engineering
         through TrueCoders and currently work as an instructor there. During my
