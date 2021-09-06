@@ -3,6 +3,8 @@ body {
   font-family: 'Italiana', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;  
+  padding: 10px
 }
 
 h1 {
