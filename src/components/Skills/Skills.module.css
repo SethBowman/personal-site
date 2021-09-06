@@ -1,8 +1,12 @@
+html {
+    background-color: #141313;
+}
+
 .Skills {
     background-color: #141313;
     color: white;
     padding-bottom: 5%;
-    display: flex;
+    display: flex;    
 }
 
 .Skills p {
