@@ -2,7 +2,7 @@
     background: rgb(50,199,237);
     background: linear-gradient(90deg, rgba(50,199,237,1) 0%, rgba(21,135,213,1) 35%);
     display: flex;
-    height: 630px;
+    height: 500px;
     padding-top: 80px;
     position: relative;
 }

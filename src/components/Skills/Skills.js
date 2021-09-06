@@ -13,14 +13,14 @@ const backEndSkills =
 const frontEndSkills =
 <ul>
     <li style={listTitleStyle}>FRONTEND</li>
-    <li>HTML - CSS = JavaScript</li>
-    <li>React.js = Node.js - Express.js</li>
+    <li>HTML - CSS - JavaScript</li>
+    <li>React.js - Node.js - Express.js</li>
 </ul>
 
 const otherSkills =
 <ul>
     <li style={listTitleStyle}>OTHER</li>
-    <li>Git - Json - XML</li>
+    <li>Git - Json - JSX</li>
 </ul>
 
 const allSkills = [backEndSkills, frontEndSkills, otherSkills];

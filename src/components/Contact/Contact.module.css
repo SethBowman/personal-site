@@ -12,6 +12,13 @@
     justify-content: center;
 }
 
+.Contact .Mail {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
 .Contact .Icons svg path {
     cursor: pointer;
 }
