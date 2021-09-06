@@ -6,8 +6,8 @@
 }
 
 .Skills p {
-    padding-left: 25%;
-    width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .Skills .List ul {

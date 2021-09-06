@@ -29,10 +29,9 @@ const allSkills = [backEndSkills, frontEndSkills, otherSkills];
 const Skills = () => {
   return (
     <div className={classes.Skills} id="skills">
-      <div className={site.Container}>
+      <div className={`${site.Container} ${site.flexColumn}`}>
         <h1>What skills do I have?</h1>
         <hr/>
-      </div>
       {/* <PageHeader title={"What skills do I have?"} /> */}
       <p>
         "I've earned certification in web development and software engineering
@@ -42,17 +41,18 @@ const Skills = () => {
         libraries that I have worked with and liked."
       </p>
       <div className={classes.CodeGif}>
-          <img src={codeGif} alt="Code Gif" style={{height: '400px'}}/>
+          <img src={codeGif} alt="Code Gif" className={site.imgFluid}/>
       </div>
       <div className={classes.Container}>
             {allSkills.map(skills => {
-                return (
-                    <div className={classes.List}>
+              return (
+                <div className={classes.List}>
                         {skills}
                     </div>
                 )
-            })}
+              })}
       </div>
+              </div>
     </div>
   );
 };
