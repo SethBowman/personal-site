@@ -19,8 +19,25 @@
   font-size: 25px;
 }
 
+
 .imageHeading {
     margin-left: auto;
     margin-right: auto;
-    max-width: 300px;
+    max-width: 330px;    
+}
+
+@keyframes spin {
+  from {
+      transform:rotateY(0deg);
+  }
+  to {
+      transform:rotateY(360deg);
+  }
+}
+
+.tcImg {
+    animation-name: spin;  
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }

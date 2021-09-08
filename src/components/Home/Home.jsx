@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         <div className={`${site.colMd6} ${site.order3}`}>
           <img
-            className={site.imgFluid}
+            className={`${site.imgFluid} ${classes.tcImg}`}
             src={tcLogoSmall}
             alt="Tc Logo- Small"
             style={{ height: "100px", width: "auto" }}
