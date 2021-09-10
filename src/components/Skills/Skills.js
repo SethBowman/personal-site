@@ -41,7 +41,7 @@ const Skills = () => {
         libraries that I have worked with and liked."
       </p>
       <div className={classes.CodeGif}>
-          <img src={codeGif} alt="Code Gif" className={site.imgFluid}/>
+          <img src={codeGif} alt="Code Gif" className={`${site.imgFluid} ${classes.codeGif}`}/>
       </div>
       <div className={classes.Container}>
             {allSkills.map(skills => {
