@@ -13,7 +13,7 @@ const Contact = () => {
             <FaGithub color='#0094c8' size='50px' style={{padding: '1%'}} onClick={handleURL('https://github.com/SethBowman')} />
             <FaLinkedin color='#0094c8' size='50px' style={{padding: '1%'}} onClick={handleURL('https://www.linkedin.com/in/seth-bowman-358863211/')} />
             <FaFacebookSquare color='#0094c8' size='50px' style={{padding: '1%'}} onClick={handleURL('https://www.facebook.com/brandonsethbowman/')} />
-            <FaPlaystation color='#0094c8' size='50px' style={{padding: '1%'}} onClick={handleURL('https://psnprofiles.com/Race2TheMoon')} />          
+            <FaPlaystation color='#0094c8' size='50px' style={{padding: '1%'}} onClick={handleURL('https://psnprofiles.com/NewKing0fSwing')} />          
             </div>
         </div>
      );
