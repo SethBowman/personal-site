@@ -66,4 +66,7 @@ html {
     font-size: 35px;
     text-decoration: none;
     color: white;
+    border-color: white;
+    border-style: double;
+    border-radius: 25px;
 }
