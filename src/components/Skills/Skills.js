@@ -33,9 +33,9 @@ const Skills = () => {
         <hr/>
       {/* <PageHeader title={"What skills do I have?"} /> */}
       
-      <ul id="projects">
-        <li><a href="https://github.com/SethBowman/VideoGameMVC">Video Game MVC App</a> <p class="project-text">An application that stores video games in to a MySql database using ASP.NET Core MVC design patter and includes Dapper and MySQL.Data NuGet packages.</p></li>
-        <li><a href="https://github.com/SethBowman/NuclearWorld">Nuclear World</a> <p class="project-text">A text-based adventure game created using a basic Console Application. This was created for fun and is intented to have a nostalgic old school text game feel to it.</p></li>
+      <ul className={classes.projects}>
+        <li><a href="https://github.com/SethBowman/VideoGameMVC">Video Game MVC App</a> <p className={classes.project-text}>An application that stores video games in to a MySql database using ASP.NET Core MVC design patter and includes Dapper and MySQL.Data NuGet packages.</p></li>
+        <li><a href="https://github.com/SethBowman/NuclearWorld">Nuclear World</a> <p className={classes.project-text}>A text-based adventure game created using a basic Console Application. This was created for fun and is intented to have a nostalgic old school text game feel to it.</p></li>
       </ul>
 
       <div className={classes.CodeGif}>
