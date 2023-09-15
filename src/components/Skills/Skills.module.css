@@ -53,3 +53,11 @@ html {
     25%  {transform: scale(0.9);}
     75%  {transform: scale(1.1);}
   }
+
+#projects {
+    list-style: none;
+}
+
+.project-text {
+    font-size: 30px;;
+}
