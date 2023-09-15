@@ -8,20 +8,19 @@ const listTitleStyle = { fontWeight: 900, color: '#0094c8', marginBottom: '8px'}
 const backEndSkills = 
 <ul>
     <li style={listTitleStyle}>BACKEND</li>
-    <li>C# - SQL</li>
+    <li>C# - MySql - ASP.NET Core MVC</li>
 </ul>
 
 const frontEndSkills =
 <ul>
     <li style={listTitleStyle}>FRONTEND</li>
-    <li>HTML - CSS - JavaScript</li>
-    <li>React.js - Node.js - Express.js</li>
+    <li>HTML - CSS - JavaScript - JSON</li>    
 </ul>
 
 const otherSkills =
 <ul>
     <li style={listTitleStyle}>OTHER</li>
-    <li>Git - Json - JSX</li>
+    <li>Git - Razor Pages</li>
 </ul>
 
 const allSkills = [backEndSkills, frontEndSkills, otherSkills];
@@ -30,16 +29,15 @@ const Skills = () => {
   return (
     <div className={classes.Skills} id="skills">
       <div className={`${site.Container} ${site.flexColumn}`}>
-        <h1>What skills do I have?</h1>
+        <h2>Projects</h2>
         <hr/>
       {/* <PageHeader title={"What skills do I have?"} /> */}
-      <p>
-        "I've earned certification in web development and software engineering
-        through TrueCoders and currently work as an instructor there. During my
-        time through the course, and even still, I've created many projects.
-        Below are some programming languages, frameworks, toolkits, and
-        libraries that I have worked with and liked."
-      </p>
+      
+      <ul>
+        <li><a src="https://github.com/SethBowman/VideoGameMVC">Video Game MVC App</a> <p>An application that stores video games in to a MySql database using ASP.NET Core MVC design patter and includes Dapper and MySQL.Data NuGet packages.</p></li>
+        <li><a src="https://github.com/SethBowman/NuclearWorld">Nuclear World</a> <p>A text-based adventure game created using a basic Console Application. This was created for fun and is intented to have a nostalgic old school text game feel to it.</p></li>
+      </ul>
+
       <div className={classes.CodeGif}>
           <img src={codeGif} alt="Code Gif" className={`${site.imgFluid} ${classes.codeGif}`}/>
       </div>
