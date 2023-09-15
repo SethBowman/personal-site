@@ -59,5 +59,9 @@ html {
 }
 
 .project {
-    font-size: 10px;;
+    font-size: 20px;;
+}
+
+.projectAnchor {
+    font-size: 35px;
 }
