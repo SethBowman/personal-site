@@ -29,7 +29,7 @@ const Skills = () => {
   return (
     <div className={classes.Skills} id="skills">
       <div className={`${site.Container} ${site.flexColumn}`}>
-        <h2>Projects</h2>
+        <h1>Projects</h1>
         <hr/>
       {/* <PageHeader title={"What skills do I have?"} /> */}
       
